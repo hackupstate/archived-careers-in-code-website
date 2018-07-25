@@ -1,0 +1,15 @@
+// Fix top height of navbar so that sponsor banner can be added
+.custom-banner-page .fixed-top {
+    top: 40px !important;
+}
+
+// Smaller viewports reduce the spacing
+@media(max-width: 425px) {
+    .custom-banner-page .fixed-top {
+        top: 30px !important;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: $primary;
+}
