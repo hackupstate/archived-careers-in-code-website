@@ -212,9 +212,15 @@ img::-moz-selection {
   padding: 10px;
   font-size: 14px;
   color: #fff;
-  background-color: #F39B31;
+  background-color: #29d;
   text-align: center;
   overflow-wrap: break-word;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#sponsor-banner:hover {
+  background-color: #1b7ab1;
 }
 
 @media (max-width: 425px) {
@@ -247,6 +253,13 @@ header.masthead .intro-text .intro-lead-in, section.masthead .intro-text .intro-
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+header.masthead .intro-text .intro-lead-text, section.masthead .intro-text .intro-lead-text, section.stock-image-laptop .intro-text .intro-lead-text {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-style: italic;
+  line-height: 22px;
+}
+
 header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-heading, section.stock-image-laptop .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
@@ -266,6 +279,12 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-lead-text, section.masthead .intro-text .intro-lead-text, section.stock-image-laptop .intro-text .intro-lead-text {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-style: italic;
+    line-height: 22px;
   }
   header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-heading, section.stock-image-laptop .intro-text .intro-heading {
     font-size: 75px;

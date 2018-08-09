@@ -83,9 +83,15 @@
   padding: 10px;
   font-size: 14px;
   color: #fff;
-  background-color: #F39B31;
+  background-color: $primary;
   text-align: center;
   overflow-wrap: break-word;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#sponsor-banner:hover {
+  background-color: darken($primary, 10%);
 }
 
 @media(max-width: 425px) {

@@ -15,6 +15,12 @@ header.masthead, section.masthead, section.stock-image-laptop {
       margin-bottom: 25px;
       @include serif-font;
     }
+    .intro-lead-text {
+      font-size: 18px;
+      margin-bottom: 25px;
+      font-style: italic;
+      line-height: 22px;
+    }
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -35,6 +41,12 @@ header.masthead, section.masthead, section.stock-image-laptop {
         line-height: 40px;
         margin-bottom: 25px;
         @include serif-font;
+      }
+      .intro-lead-text {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-style: italic;
+        line-height: 22px;
       }
       .intro-heading {
         font-size: 75px;
