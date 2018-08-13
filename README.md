@@ -22,3 +22,8 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 - `gulp minify-css` minifies the compiled CSS file
 - `gulp minify-js` minifies the themes JS file
 - `gulp copy` copies dependencies from node_modules to the vendor directory
+
+## Deployment
+The website is currently deployed with CI using [Netlify](https://www.netlify.com/). 
+
+Pushes to the codebase will automatically trigger a build.
